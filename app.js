@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
-const { Client, Intents } = require('@discordjs/voice');
+const { VoiceClient, Intents } = require('@discordjs/voice');
 const { token } = require('./config.json');
 
 // Create a new client instance
